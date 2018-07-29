@@ -15,6 +15,7 @@ switch ($action){
         break;
     case 'laydanhsach-student':
         EnrollmentController::getAllStudent();
+		$a = 1;
         break;
 }
 ?>
